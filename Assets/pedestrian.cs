@@ -45,7 +45,7 @@ public class pedestrian : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
-	void OnTriggerEnter(Collider other){
+	void OnTriggerEnter2D(Collider2D other){
 		Debug.Log("HIT");
 		if (other.tag == "line" || other.GetComponent<pedestrian>()){
 			canMove = false;
@@ -58,7 +58,7 @@ public class pedestrian : MonoBehaviour {
 
 		}
 	}
-	void OnTriggerExit (Collider other){
+	void OnTriggerExit2D(Collider2D other){
 		overlappingActors--;
 		if (overlappingActors <= 0) canMove = true;
 	}
