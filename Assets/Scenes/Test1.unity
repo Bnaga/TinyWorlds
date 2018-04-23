@@ -122,6 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 213414025}
   - component: {fileID: 213414026}
+  - component: {fileID: 213414027}
+  - component: {fileID: 213414028}
   m_Layer: 0
   m_Name: point (7)
   m_TagString: Untagged
@@ -186,6 +188,117 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &213414027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 213414024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &213414028
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 213414024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
+--- !u!1 &257023376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 257023378}
+  - component: {fileID: 257023377}
+  - component: {fileID: 257023379}
+  m_Layer: 0
+  m_Name: LineRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &257023377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257023376}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493be1251b28054e9cb140abb6f06dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point1: {fileID: 1679740875}
+  point2: {fileID: 449365153}
+  point3: {fileID: 483809146}
+  point4: {fileID: 1344223174}
+  point5: {fileID: 527186067}
+  point6: {fileID: 1881063625}
+  point7: {fileID: 939487056}
+  point8: {fileID: 213414024}
+  point9: {fileID: 1287940898}
+  point10: {fileID: 689821561}
+  point11: {fileID: 1470995005}
+  point12: {fileID: 583818764}
+  point13: {fileID: 1582792045}
+  point14: {fileID: 1610860984}
+  point15: {fileID: 2091988156}
+  point16: {fileID: 999882740}
+--- !u!4 &257023378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257023376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.51995593, y: 0.49244916, z: -0.15587704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &257023379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257023376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e42f9cd60f06e4a8949ebe1f4c3ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point1: {fileID: 1679740875}
+  point2: {fileID: 449365153}
+  point3: {fileID: 483809146}
+  point4: {fileID: 1344223174}
+  point5: {fileID: 527186067}
+  point6: {fileID: 1881063625}
+  point7: {fileID: 939487056}
+  point8: {fileID: 213414024}
+  point9: {fileID: 1287940898}
+  point10: {fileID: 689821561}
+  point11: {fileID: 1470995005}
+  point12: {fileID: 583818764}
+  point13: {fileID: 1582792045}
+  point14: {fileID: 1610860984}
+  point15: {fileID: 2091988156}
+  point16: {fileID: 999882740}
 --- !u!1 &449365153
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 449365154}
   - component: {fileID: 449365155}
+  - component: {fileID: 449365156}
+  - component: {fileID: 449365157}
   m_Layer: 0
   m_Name: point (1)
   m_TagString: Untagged
@@ -259,6 +374,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &449365156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 449365153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &449365157
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 449365153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &483809146
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +410,8 @@ GameObject:
   m_Component:
   - component: {fileID: 483809147}
   - component: {fileID: 483809148}
+  - component: {fileID: 483809149}
+  - component: {fileID: 483809150}
   m_Layer: 0
   m_Name: point (2)
   m_TagString: Untagged
@@ -332,6 +476,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &483809149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483809146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &483809150
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483809146}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &527186067
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +512,8 @@ GameObject:
   m_Component:
   - component: {fileID: 527186068}
   - component: {fileID: 527186069}
+  - component: {fileID: 527186070}
+  - component: {fileID: 527186071}
   m_Layer: 0
   m_Name: point (4)
   m_TagString: Untagged
@@ -405,6 +578,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &527186070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527186067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &527186071
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527186067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &583818764
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +614,8 @@ GameObject:
   m_Component:
   - component: {fileID: 583818765}
   - component: {fileID: 583818766}
+  - component: {fileID: 583818767}
+  - component: {fileID: 583818768}
   m_Layer: 0
   m_Name: point (11)
   m_TagString: Untagged
@@ -478,6 +680,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &583818767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583818764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &583818768
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583818764}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &689821561
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +716,8 @@ GameObject:
   m_Component:
   - component: {fileID: 689821562}
   - component: {fileID: 689821563}
+  - component: {fileID: 689821564}
+  - component: {fileID: 689821565}
   m_Layer: 0
   m_Name: point (9)
   m_TagString: Untagged
@@ -551,6 +782,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &689821564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689821561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &689821565
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689821561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &939487056
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +818,8 @@ GameObject:
   m_Component:
   - component: {fileID: 939487057}
   - component: {fileID: 939487058}
+  - component: {fileID: 939487059}
+  - component: {fileID: 939487060}
   m_Layer: 0
   m_Name: point (6)
   m_TagString: Untagged
@@ -624,6 +884,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &939487059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939487056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &939487060
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939487056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &999882740
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +920,8 @@ GameObject:
   m_Component:
   - component: {fileID: 999882741}
   - component: {fileID: 999882742}
+  - component: {fileID: 999882743}
+  - component: {fileID: 999882744}
   m_Layer: 0
   m_Name: point (15)
   m_TagString: Untagged
@@ -697,6 +986,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &999882743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 999882740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &999882744
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 999882740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1063566273
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +1103,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1287940899}
   - component: {fileID: 1287940900}
+  - component: {fileID: 1287940901}
+  - component: {fileID: 1287940902}
   m_Layer: 0
   m_Name: point (8)
   m_TagString: Untagged
@@ -851,6 +1169,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1287940901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287940898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1287940902
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287940898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1293313417
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,7 +1211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1293313418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -933,6 +1278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1344223175}
   - component: {fileID: 1344223176}
+  - component: {fileID: 1344223177}
+  - component: {fileID: 1344223178}
   m_Layer: 0
   m_Name: point (3)
   m_TagString: Untagged
@@ -997,6 +1344,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1344223177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344223174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1344223178
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344223174}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1470995005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1380,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1470995006}
   - component: {fileID: 1470995007}
+  - component: {fileID: 1470995008}
+  - component: {fileID: 1470995009}
   m_Layer: 0
   m_Name: point (10)
   m_TagString: Untagged
@@ -1070,6 +1446,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1470995008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470995005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1470995009
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470995005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1582792045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1482,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1582792046}
   - component: {fileID: 1582792047}
+  - component: {fileID: 1582792048}
+  - component: {fileID: 1582792049}
   m_Layer: 0
   m_Name: point (12)
   m_TagString: Untagged
@@ -1143,6 +1548,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1582792048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582792045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1582792049
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582792045}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1610860984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1584,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1610860985}
   - component: {fileID: 1610860986}
+  - component: {fileID: 1610860987}
+  - component: {fileID: 1610860988}
   m_Layer: 0
   m_Name: point (13)
   m_TagString: Untagged
@@ -1216,6 +1650,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1610860987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610860984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1610860988
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610860984}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1674942166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,6 +1751,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1679740876}
   - component: {fileID: 1679740877}
+  - component: {fileID: 1679740878}
+  - component: {fileID: 1679740879}
   m_Layer: 0
   m_Name: point
   m_TagString: Untagged
@@ -1354,6 +1817,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1679740878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1679740875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1679740879
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1679740875}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1840937495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,6 +1897,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1881063626}
   - component: {fileID: 1881063627}
+  - component: {fileID: 1881063628}
+  - component: {fileID: 1881063629}
   m_Layer: 0
   m_Name: point (5)
   m_TagString: Untagged
@@ -1471,6 +1963,33 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1881063628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881063625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &1881063629
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881063625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &2091988156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1999,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2091988157}
   - component: {fileID: 2091988158}
+  - component: {fileID: 2091988159}
+  - component: {fileID: 2091988160}
   m_Layer: 0
   m_Name: point (14)
   m_TagString: Untagged
@@ -1544,3 +2065,30 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2091988159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091988156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3c097cb53ca419fef8d943fdc0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hover: 0
+--- !u!58 &2091988160
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091988156}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
